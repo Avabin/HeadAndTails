@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Implementation of Coin object. now you can throw it!
  */
-class Coin {
+public class Coin {
     private final Random random = new Random();
     private final CoinSide[] sides = {
             new CoinHead(),
